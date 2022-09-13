@@ -16,7 +16,7 @@ const Home: NextPage = () => {
             Create <span className={styles.titlePink}>T3</span> App
           </h1>
 
-          <h3 className={styles.subtitle}>This stack uses:</h3>
+          <h3 className={styles.subtitle}>This stack uses</h3>
           <div className={styles.cardGrid}>
             <TechnologyCard
               name="NextJS"
