@@ -23,7 +23,7 @@ const Home: NextPage = () => {
                                 Software Engineer - Front End
                             </Box>
                             <Box fontSize="11px" mt="3px!important">
-                                I am a motivated, analytical, systems driven thinker. My focus has recently been in front end web development, but I am so excited to be entering the technology space and I am open to new possibilities. I pride myself im being a thoughtful team member first, effortlessly working to balance meeting product requirements with the strengths and needs of the team. My career has yielded a variety of experiences working in traditional induxtry and startups and I believe I am prepared for a variety of challenges!
+                                I am a motivated, analytical, systems driven thinker. My focus has recently been in front end web development, but I am so excited to be entering the technology space and I am open to new possibilities. I pride myself in being a thoughtful team member first, effortlessly working to balance meeting product requirements with the strengths and needs of the team. My career has yielded a variety of experiences working in traditional industry and startups and I believe I am prepared for a variety of challenges!
                             </Box>
                         </VStack>
                     </GridItem>
@@ -220,7 +220,7 @@ const Home: NextPage = () => {
                                     Quality Assurance Specialist
                                 </Heading>
                                 <Heading fontSize="16px" mt="3px!important" w="100%">
-                                    Specialty Granules LLC <Box display="inline" fontSize="14px" fontWeight="500">(https://specialtygranules.com/)</Box>
+                                    Specialty Granules LLC <Box display="inline" fontSize="14px" fontWeight="500" textDecoration="underline">(https://specialtygranules.com/)</Box>
                                 </Heading>
                                 <Flex justifyContent="space-between" w="100%" fontSize="12px" mt="0!important">
                                     <Box>
