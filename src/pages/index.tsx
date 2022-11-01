@@ -1,4 +1,4 @@
-import { Box, ColorModeScript, Flex, GridItem, Heading, Image, ListItem, SimpleGrid, UnorderedList, useColorMode, useMediaQuery, VStack } from "@chakra-ui/react";
+import { Box, ColorModeScript, Flex, GridItem, Heading, Image, Link, ListItem, SimpleGrid, UnorderedList, useColorMode, useMediaQuery, VStack } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "./index.module.css";
@@ -19,11 +19,11 @@ const Home: NextPage = () => {
                             <Box fontWeight="800" mt="0px!important" onClick={toggleColorMode}>
                                 Paul D'Antonio
                             </Box>
-                            <Box mt="3px!important">
-                                Software Engineer - Front End
+                            <Box mt="3px!important" borderBottom="1px solid rgba(255,255,255,0.3)" w="100%">
+                                Software Engineer - Front End <Box fontSize="13px" display="inline">(8 Months React, 1 Year jQuery)</Box>
                             </Box>
                             <Box fontSize="11px" mt="3px!important">
-                                I am a motivated, analytical, systems driven thinker. My focus has recently been in front end web development, but I am so excited to be entering the technology space and I am open to new possibilities. I pride myself in being a thoughtful team member first, effortlessly working to balance meeting product requirements with the strengths and needs of the team. My career has yielded a variety of experiences working in traditional industry and startups and I believe I am prepared for a variety of challenges!
+                                I am a motivated, analytical, systems driven thinker. I pride myself in being a thoughtful team member first, working to balance meeting product requirements with the strengths and needs of the team. My career has yielded a variety of experiences working in traditional industry and startups and I believe I am prepared for a variety of challenges! I'm currently specializing in Front End engineering, but I am open to other possibilities. 
                             </Box>
                         </VStack>
                     </GridItem>
@@ -31,7 +31,7 @@ const Home: NextPage = () => {
 
                 <SimpleGrid columns={10} columnGap="20px">
                     <GridItem colSpan={3} display="flex" justifyContent="center">
-                        <VStack alignItems="flex-start" w="100%" p="0.125in" fontSize="13px">
+                        <VStack alignItems="flex-start" w="100%" p="0.125in" fontSize="12px">
                             <VStack rowGap="0px" w="100%" mt="3px!important">
                                 <Box>
                                     pbdantonio@gmail.com
@@ -40,7 +40,7 @@ const Home: NextPage = () => {
                             <VStack w="100%" m="5px 0px 5px 0px!important">
                                 <Box borderBottom="1px solid rgba(0,0,0,0.4)" w="70%" />
                             </VStack>
-                            <VStack rowGap="0px" w="100%" mt="3px!important">
+                            <VStack rowGap="0px" w="100%" mt="0px!important">
                                 <Box>
                                     (315) 727-1453
                                 </Box>
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
                             <VStack w="100%" m="5px 0px 5px 0px!important">
                                 <Box borderBottom="1px solid rgba(0,0,0,0.4)" w="70%" />
                             </VStack>
-                            <VStack rowGap="0px" w="100%" mt="3px!important">
+                            <VStack rowGap="0px" w="100%" mt="0px!important">
                                 <Box>
                                     Syracuse, NY
                                 </Box>
@@ -56,7 +56,7 @@ const Home: NextPage = () => {
                             <VStack w="100%" m="5px 0px 5px 0px!important">
                                 <Box borderBottom="1px solid rgba(0,0,0,0.4)" w="70%" />
                             </VStack>
-                            <VStack rowGap="0px" w="100%" mt="3px!important">
+                            <VStack rowGap="0px" w="100%" mt="0px!important">
                                 <Box>
                                     github.com/xxgunnery
                                 </Box>
@@ -64,17 +64,25 @@ const Home: NextPage = () => {
                             <VStack w="100%" m="5px 0px 5px 0px!important">
                                 <Box borderBottom="1px solid rgba(0,0,0,0.4)" w="70%" />
                             </VStack>
-                            <VStack rowGap="0px" w="100%" mt="3px!important">
+                            <VStack rowGap="0px" w="100%" mt="0px!important">
+                                <Box>
+                                    portfolio-xxgunnery.vercel.app
+                                </Box>
+                            </VStack>
+                            <VStack w="100%" m="5px 0px 5px 0px!important">
+                                <Box borderBottom="1px solid rgba(0,0,0,0.4)" w="70%" />
+                            </VStack>
+                            <VStack rowGap="0px" w="100%" mt="0px!important">
                                 <Box>
                                     twitter.com/xxgunnery
                                 </Box>
                             </VStack>
                             <VStack w="100%" alignItems="flex-start" pt=".05in">
-                                <Heading fontSize="23px" borderBottom="1px solid black" w="100%">
+                                <Heading fontSize="20px" borderBottom="1px solid black" w="100%">
                                     TECH SKILLS
                                 </Heading>
                                 <VStack w="100%" alignItems="flex-start">
-                                    <Box>
+                                    <Box fontSize="12px">
                                         Frontend - React
                                     </Box>
                                     <Box mt="0px!important" border="1px solid blue" w="100%" h="10px">
@@ -84,7 +92,7 @@ const Home: NextPage = () => {
                                     </Box>
                                 </VStack>
                                 <VStack w="100%" alignItems="flex-start">
-                                    <Box>
+                                    <Box fontSize="12px">
                                         Web Design
                                     </Box>
                                     <Box mt="0px!important" border="1px solid blue" w="100%" h="10px">
@@ -94,7 +102,7 @@ const Home: NextPage = () => {
                                     </Box>
                                 </VStack>
                                 <VStack w="100%" alignItems="flex-start">
-                                    <Box>
+                                    <Box fontSize="12px">
                                         Frameworks - Next.JS
                                     </Box>
                                     <Box mt="0px!important" border="1px solid blue" w="100%" h="10px">
@@ -104,7 +112,7 @@ const Home: NextPage = () => {
                                     </Box>
                                 </VStack>
                                 <VStack w="100%" alignItems="flex-start">
-                                    <Box>
+                                    <Box fontSize="12px">
                                         Backend - NodeJS, Django
                                     </Box>
                                     <Box mt="0px!important" border="1px solid blue" w="100%" h="10px">
@@ -114,7 +122,7 @@ const Home: NextPage = () => {
                                     </Box>
                                 </VStack>
                                 <VStack w="100%" alignItems="flex-start">
-                                    <Box>
+                                    <Box fontSize="12px">
                                         Databases - MongoDB, SQL
                                     </Box>
                                     <Box mt="0px!important" border="1px solid blue" w="100%" h="10px">
@@ -124,7 +132,7 @@ const Home: NextPage = () => {
                                     </Box>
                                 </VStack>
                                 <VStack w="100%" alignItems="flex-start">
-                                    <Box>
+                                    <Box fontSize="12px">
                                         Data Analysis/Computation
                                     </Box>
                                     <Box mt="0px!important" border="1px solid blue" w="100%" h="10px">
@@ -134,7 +142,7 @@ const Home: NextPage = () => {
                                     </Box>
                                 </VStack>
                                 <VStack w="100%" alignItems="flex-start">
-                                    <Box>
+                                    <Box fontSize="12px">
                                         Frontend Web3 - EthersJS
                                     </Box>
                                     <Box mt="0px!important" border="1px solid blue" w="100%" h="10px">
@@ -144,7 +152,7 @@ const Home: NextPage = () => {
                                     </Box>
                                 </VStack>
                                 <VStack w="100%" alignItems="flex-start">
-                                    <Box>
+                                    <Box fontSize="12px">
                                         Quality Assurance
                                     </Box>
                                     <Box mt="0px!important" border="1px solid blue" w="100%" h="10px">
@@ -154,7 +162,7 @@ const Home: NextPage = () => {
                                     </Box>
                                 </VStack>
                                 <VStack w="100%" alignItems="flex-start">
-                                    <Box>
+                                    <Box fontSize="12px">
                                         Community Management
                                     </Box>
                                     <Box mt="0px!important" border="1px solid blue" w="100%" h="10px">
@@ -164,7 +172,7 @@ const Home: NextPage = () => {
                                     </Box>
                                 </VStack>
                                 <VStack w="100%" alignItems="flex-start">
-                                    <Box>
+                                    <Box fontSize="12px">
                                         Customer Relations
                                     </Box>
                                     <Box mt="0px!important" border="1px solid blue" w="100%" h="10px">
@@ -181,14 +189,14 @@ const Home: NextPage = () => {
                     <GridItem colSpan={7}>
                         <VStack alignItems="flex-start" mt=".125in" pr="0.25in" w="100%">
                             <Heading borderBottom="1px solid black" w="100%" fontSize="20px">
-                                WORK HIGHLIGHTS
+                                WORK HIGHLIGHTS - <Box display="inline" fontSize="13px">See GitHub and Portfolio for more</Box>
                             </Heading>
                             <VStack alignItems="flex-start" w="100%">
                                 <Heading fontSize="16px" color="blue.600" w="100%">
-                                    Lead Front-End Web Developer
+                                    Lead Front End Engineer
                                 </Heading>
                                 <Heading fontSize="16px" mt="3px!important" w="100%">
-                                    Axie DoLL - Defenders of Lunacian Land <Box display="inline" fontSize="14px" fontWeight="500" textDecoration="underline">(https://doll.tioland.com)</Box>
+                                    Axie DoLL - Defenders of Lunacian Land <Link href="https://doll.tioland.com" display="inline" fontSize="14px" fontWeight="500" textDecoration="underline">(https://doll.tioland.com)</Link>
                                 </Heading>
                                 <Flex justifyContent="space-between" w="100%" fontSize="12px" mt="0!important">
                                     <Box>
@@ -201,13 +209,13 @@ const Home: NextPage = () => {
                                 <VStack ml="10px!important" mt="3px!important">
                                     <UnorderedList w="100%" mt="0px!important" fontSize="12px">
                                         <ListItem>
-                                            Lead Front-End Web Developer for Axie DoLL, an exploding competitive game created for the Axie Infinity Builder's Program. Our web infrastructure currently supports 2000 players seamlessly and the player base is growing rapidly.
+                                            Axie DoLL is an exploding competitive game created for the Axie Infinity Builder's Program. Our web infrastructure currently supports 2000 players and the player base is growing rapidly. As part of a team of 5, I work cooperatively with game developers and my web partner to facilitate the online connections (REST APIs) for the game.
                                         </ListItem>
-                                        <ListItem>
-                                            As part of a team of 5, I worked cooperatively with game developers and my web partner to facilitate the online connections (REST APIs) for the game to manage leaderboards, live operations events, account creation/management and product sales. Our team developed code quality practices such as code review and testing.
+                                        <ListItem mt="3px">
+                                            <strong>Technical challenges:</strong> Seasonal game leaderboards, live operations events, account creation/management, product flash sales ($50,000 revenue in 3 days), user profiles, web3 wallet integrations including secure sign on and payments.  Our team also developed and implemented code quality practices such as code review and testing.
                                         </ListItem>
-                                        <ListItem>
-                                            Responsible for engaging with community to collect and translate feedback (bug reports and feature requests) for both the website and the game. I maintained several Notion tables for managing tasks and tracking progress.
+                                        <ListItem mt="3px">
+                                            <strong>Additional responsibilities:</strong> Engaging with community (2000+ Discord users, 8000+ Twitter followers) to collect and translate feedback (bug reports and feature requests) for both the website and the game. I maintained several Notion tables for managing tasks and tracking progress.
                                         </ListItem>
                                     </UnorderedList>
                                 </VStack>
@@ -217,7 +225,7 @@ const Home: NextPage = () => {
                             </VStack>
                             <VStack alignItems="flex-start" w="100%">
                                 <Heading fontSize="16px" color="blue.600" w="100%">
-                                    Quality Assurance Specialist
+                                    Quality Assurance Specialist (Manufacturing)
                                 </Heading>
                                 <Heading fontSize="16px" mt="3px!important" w="100%">
                                     Specialty Granules LLC <Box display="inline" fontSize="14px" fontWeight="500" textDecoration="underline">(https://specialtygranules.com/)</Box>
@@ -233,13 +241,10 @@ const Home: NextPage = () => {
                                 <VStack ml="10px!important" mt="3px!important">
                                     <UnorderedList w="100%" mt="0px!important" fontSize="12px">
                                         <ListItem>
-                                            Quality assurance professional in the building materials industry. Responsible for sustaining and improving quality systems at the plant level (manufacturing).
+                                            Root cause analysis. Remediate and develop short-term and long-term corrective actions for internal quality issues and customer complaints/inquiries.
                                         </ListItem>
                                         <ListItem>
-                                            Root cause analysis. Remediating and develop short-term and long-term corrective actions for internal quality issues and customer complaints/inquiries.
-                                        </ListItem>
-                                        <ListItem>
-                                            Conduct internal audits and document results related to processing equipment and procedural compliance. Participate in external audits of our facilities, providing data and assisting auditors collect data for our process.
+                                            Conduct internal audits and document results related to processing equipment and procedural compliance. Participate in external audits of our facilities, providing data and assisting auditors collecting data for our process.
                                         </ListItem>
                                         <ListItem>
                                             Data analysis for determination of process capability, identification of process issues, and process improvement initiatives.
@@ -269,8 +274,8 @@ const Home: NextPage = () => {
                                         State College, PA
                                     </Box>
                                 </Flex>
-                                <Box fontSize="16px" mt="0px!important">
-                                    B.S. Mining Engineering
+                                <Box fontSize="14px" mt="0px!important">
+                                    B.S. Mining and Mineral Engineering
                                 </Box>
                             </VStack>
                             <VStack alignItems="flex-start" w="100%">
@@ -285,7 +290,7 @@ const Home: NextPage = () => {
                                         Syracuse, NY
                                     </Box>
                                 </Flex>
-                                <Box fontSize="16px" mt="0px!important">
+                                <Box fontSize="14px" mt="0px!important">
                                     A.S. Engineering Science
                                 </Box>
                             </VStack>
