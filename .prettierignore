@@ -1,0 +1,7 @@
+# Add files here to ignore them from prettier formattingprett
+/dist
+/coverage
+**/*.json
+**/*.js
+**/*.scss
+**/*.md
