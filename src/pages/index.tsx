@@ -283,13 +283,13 @@ const Home: NextPage = () => {
                         <strong>Battle Plains (current):</strong> I am currently working on a game
                         using Three.JS as my rendering engine. Private GitHub repository. Live demo at{" "}
                         <Link
-                          href="battle-plains.vercel.app"
+                          href="https://battle-plains.vercel.app/"
                           display="inline"
                           fontSize="12px"
                           fontWeight="500"
                           textDecoration="underline"
                         >
-                          (battle-plains.vercel.app).
+                          (https://battle-plains.vercel.app/).
                         </Link>
                       </ListItem>
                       <ListItem>
