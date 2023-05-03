@@ -265,13 +265,13 @@ const Home: NextPage = () => {
                   <Heading fontSize="15px" mt="3px!important" w="100%">
                     Hobby Projects{" "}
                     <Link
-                      href="github.com/xxgunnery"
+                      href="https://github.com/xxgunnery"
                       display="inline"
                       fontSize="14px"
                       fontWeight="500"
                       textDecoration="underline"
                     >
-                      (github.com/xxgunnery)
+                      (https://github.com/xxgunnery)
                     </Link>
                   </Heading>
                   <Flex justifyContent="space-between" w="100%" fontSize="12px" mt="0!important">
